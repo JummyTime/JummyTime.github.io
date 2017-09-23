@@ -1,11 +1,7 @@
- ---
- layout: post
- theme: minima
- title: "First Mobile Update"
- date: 2017-09-23 11:03:00 -0000
- categories: site update
- ---
- 
+| layout | theme | title | date | categories |
+|:----------:|:----------:|:----------:|:----------:|:----------:|
+|       post     |       minima     |       "First Mobile 
+Update" | 2017-09-23 11:03:00 -0000 | site update | 
 Here's a first mobile update while waiting in the 
 airport, headed to Michigan for work. I wanted a mobile 
 workflow to give me as much control as possible while 
