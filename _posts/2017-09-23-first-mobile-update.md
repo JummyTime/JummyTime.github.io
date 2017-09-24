@@ -1,7 +1,8 @@
-| layout | theme | title | date | categories |
+ | layout | theme | title | date | categories
+ 
 |:----------:|:----------:|:----------:|:----------:|:----------:|
-|       post     |       minima     |       "First Mobile 
-Update" | 2017-09-23 11:03:00 -0000 | site update |
+ |post|minima|"First Mobile Update"|2017-09-23 11:03:00 
+-0000|site update|
  
 Here's a first mobile update while waiting in the 
 airport, headed to Michigan for work. I wanted a mobile 
