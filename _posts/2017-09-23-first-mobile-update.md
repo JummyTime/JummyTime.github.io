@@ -11,7 +11,7 @@ Here's a first mobile update while waiting in the airport, headed to Michigan fo
 
 - [Termux](https://play.google.com/store/apps/details?id=com.termux)
    - Android Linux Terminal
-      - a familiar interface that lets me avoid any number of lackluster git guis/apps/clients every time I switch platforms. **Consistency is the best drug**, my grandpa always said.
+      - a familiar interface that lets me avoid any number of lackluster git guis/apps/clients every time I switch platforms. **"Consistency is the second best drug"**, my grandpa always said.
       - installed git and cloned this site repo
       - installed openssh
          - no typing GitHub credentials over and over
