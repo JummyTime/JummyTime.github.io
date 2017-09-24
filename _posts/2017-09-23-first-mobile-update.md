@@ -1,6 +1,10 @@
-| layout | theme | title | date | categories
-|:----:|:----:|:----:|:----:|:----:|
-|post|minima|"First Mobile Update"|2017-09-23 11:00:00|site update|
+--- 
+layout: post 
+there: minima
+title: "First mobile update" 
+date: 2017-09-23 22:00:00 -0000 
+categories: site update 
+---
  
 
 Here's a first mobile update while waiting in the airport, headed to Michigan for work. I wanted a mobile workflow to give me as much control as possible while avoiding contact with GitHub via browser. In summary - though I went through some trial and error - I ended up going with:
