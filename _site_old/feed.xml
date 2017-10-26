@@ -1,0 +1,82 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<rss version="2.0" xmlns:atom="http://www.w3.org/2005/Atom">
+  <channel>
+    <title>jimmy.fyi</title>
+    <description>My other website is a massively unpopular Wu Tang Clan fan page
+</description>
+    <link>http://www.jimmy.fyi/jimmy.fyi/</link>
+    <atom:link href="http://www.jimmy.fyi/jimmy.fyi/feed.xml" rel="self" type="application/rss+xml" />
+    <pubDate>Wed, 25 Oct 2017 11:38:50 -0500</pubDate>
+    <lastBuildDate>Wed, 25 Oct 2017 11:38:50 -0500</lastBuildDate>
+    <generator>Jekyll v3.5.2</generator>
+    
+      <item>
+        <title>First mobile update</title>
+        <description>&lt;p&gt;Here’s a first mobile update while waiting in the airport, headed to Michigan for work. I wanted a mobile workflow to give me as much control as possible while avoiding contact with GitHub via browser. In summary - though I went through some trial and error - I ended up going with:&lt;/p&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.termux&quot;&gt;Termux&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Android Linux Terminal&lt;/li&gt;
+  &lt;li&gt;a familiar interface that lets me avoid any number of lackluster git guis/apps/clients every time I switch platforms. &lt;strong&gt;“Consistency is the second best drug”&lt;/strong&gt;, my grandpa always said.&lt;/li&gt;
+  &lt;li&gt;installed git and cloned this site repo&lt;/li&gt;
+  &lt;li&gt;installed openssh
+    &lt;ul&gt;
+      &lt;li&gt;no typing GitHub credentials over and over&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;&lt;a href=&quot;https://play.google.com/store/apps/details?id=com.ryeeeeee.markdownx&quot;&gt;MarkdownX&lt;/a&gt;&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Markdown editor for Android&lt;/li&gt;
+  &lt;li&gt;write and preview posts then copy .md text into Termux nano editor&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;ps. The Southwest check in girl gave me googly eyes and told me I look like Aaron Taylor Johnson, from his “classic” rolls, and that’s “ it’s definitely a good thing.” 😉&lt;/p&gt;
+</description>
+        <pubDate>Sat, 23 Sep 2017 17:00:00 -0500</pubDate>
+        <link>http://www.jimmy.fyi/jimmy.fyi/site/update/2017/09/23/first-mobile-update.html</link>
+        <guid isPermaLink="true">http://www.jimmy.fyi/jimmy.fyi/site/update/2017/09/23/first-mobile-update.html</guid>
+        
+        
+        <category>site</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+      <item>
+        <title>Creating a Modern Blog</title>
+        <description>&lt;p&gt;It seems like every competent - and worldly- computer engineer has a blog. After seven years of Controls Engineering, predominantly improving FrontEnd applications, I have decided to also force feed my thoughts to the internet, as stylishly as I can.&lt;/p&gt;
+
+&lt;p&gt;First things first,  I will build a website with the following stack:&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;&lt;em&gt;jekyll&lt;/em&gt;
+    &lt;ul&gt;
+      &lt;li&gt;Blog posts made in easy to understand (Markup language)text files, in easy to understand/learn syntax. &lt;a href=&quot;https://jekyllrb.com/docs/home&quot;&gt;jekyll docs&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;First post made in default &lt;em&gt;Markdown&lt;/em&gt; &lt;a href=&quot;https://github.com/adam-p/markdown-here/wiki/Markdown-Cheatsheet&quot;&gt;Markdown Quick Reference&lt;/a&gt;&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;em&gt;github pages&lt;/em&gt;
+    &lt;ul&gt;
+      &lt;li&gt;These sites use a jekyll engine. Simply push jeykyll files for a site, from anywhere, to a git repository and the site updates is self. It’s described elsewhere as “self-aware.” &lt;a href=&quot;https://pages.github.com/&quot;&gt;github pages&lt;/a&gt;&lt;/li&gt;
+      &lt;li&gt;Free single site hosting per user&lt;/li&gt;
+      &lt;li&gt;Custom url support ((http://JummyTime.github.io) &amp;lt;=&amp;gt; (http://jimmy.fyi))&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+</description>
+        <pubDate>Fri, 22 Sep 2017 02:37:00 -0500</pubDate>
+        <link>http://www.jimmy.fyi/jimmy.fyi/site/update/2017/09/22/creating-a-modern-blog.html</link>
+        <guid isPermaLink="true">http://www.jimmy.fyi/jimmy.fyi/site/update/2017/09/22/creating-a-modern-blog.html</guid>
+        
+        
+        <category>site</category>
+        
+        <category>update</category>
+        
+      </item>
+    
+  </channel>
+</rss>
