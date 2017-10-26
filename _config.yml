@@ -1,0 +1,45 @@
+# Site settings
+title: jimmy.fyi
+description: >
+  My other website is a massively unpopular Wu Tang Clan fan page
+url: 'http://www.jimmy.fyi'
+baseurl: '/jimmy.fyi'
+# google_analytics: 'UA-XXXXXX-X'
+# disqus_shortname: 'your-disqus-name'
+
+author:
+  name: 'Jimmy Warren'
+  email: jimmy@jimmy.fyi
+  #twitter_username: <name>
+  #facebook_username: <name>
+  #github_username:  <name>
+  #linkedin_username:  <name>
+
+defaults:
+  -
+    scope:
+      path: ''
+      type: 'posts'
+    values:
+        layout: 'post'
+        permalink: /:year/:title/
+
+# Build settings
+destination: _site
+paginate: 10
+#permalink: /:year/:title/
+markdown: kramdown
+highlighter: rouge
+
+sass:
+    sass_dir: _sass
+    style: compressed
+
+kramdown:
+  # use Github Flavored Markdown
+  input: GFM
+  # do not replace newlines by <br>s
+  hard_wrap: false
+
+plugins: ['jekyll-paginate']
+exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
