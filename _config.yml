@@ -3,7 +3,7 @@ title: jimmy.fyi
 description: >
   My other website is a massively unpopular Wu Tang Clan fan page
 url: 'http://www.jimmy.fyi'
-baseurl: '/jimmy.fyi'
+baseurl: ''
 # google_analytics: 'UA-XXXXXX-X'
 # disqus_shortname: 'your-disqus-name'
 
