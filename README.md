@@ -1,3 +1,0 @@
-# jimmy.fyi
-
-jimmy.fyi
