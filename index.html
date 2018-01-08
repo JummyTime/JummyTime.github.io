@@ -20,7 +20,7 @@ layout: page
            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
            <h2>
-             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} - {{ post.categories | first}}</a>
+             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" target="_blank">{{ post.title }} - {{ post.categories | first}}</a>
            </h2>
 
            <p>
@@ -61,7 +61,7 @@ $('.filter-button-group').on( 'click', 'a', function() {
   } else {
         $cscgrid.isotope({ filter: "none" });
   }
-  
+
 });
 $('.button-group a.button').on('click', function(){
 	$('.button-group a.button').removeClass('active');
