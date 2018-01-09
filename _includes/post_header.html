@@ -19,20 +19,11 @@
           <div class="button-group filter-button-group">
 
             {% for tag in site.tags %}
-              {% for post in site.posts %}
+              {% for post in site.categories[page.categories | first] %}
 
-                {% if post.tags.size > 0 %}
-
-                  {% if post.categories | first ==  page.categories | first %} <!-- find a post of the current category and search for instance of a tag -->
-                    {% for ptag in post.tags %}
-
-                      {% if ptag == tag[0] %}
-                        <li class="navigation__item"><a  href="{{tag}}" class="button" data-filter="*">{{tag[0]}}</a></li>
-                      {% endif %}
-
-                    {% endfor %}
-                  {% endif %}
-
+                {% if post.tags[tag[0]] %}
+                  <li class="navigation__item"><a  href="{{tag}}" class="button" data-filter="*">{{tag[0]}}</a></li>
+                  {% break %}
                 {% endif %}
 
               {% endfor %}
