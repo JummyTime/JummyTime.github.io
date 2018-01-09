@@ -7,7 +7,7 @@
 
       <div class="grid" >
 
-        <div class="element-item Last_Post">
+        <div class="element-item Last">
           <div class="content-wrapper">
             <div class="content-wrapper__inner">
               {{ content }}
@@ -34,49 +34,42 @@
         {% endfor %}
 
       </div>
-      
-      <script
-        src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-        integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
-        crossorigin="anonymous"></script>
-
-      <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
-      <script>
-      // init Isotope
-      var $grid = $('.grid').isotope({
-        // options
-      });
-
-      // filter items on button click
-      $('.filter-button-group').on( 'click', 'a', function() {
-        var filterValue = $(this).attr('data-filter');
-        $grid.isotope({ filter: filterValue });
-
-        if ($(this).attr('data-filter') != "*") {
-              $cscgrid.isotope({ filter: filterValue });
-        } else {
-              $cscgrid.isotope({ filter: "none" });
-        }
-
-      });
-      $('.button-group a.button').on('click', function(){
-        $('.button-group a.button').removeClass('active');
-        $(this).addClass('active');
-      });
-      </script>
-      <style type="text/css">
-        a.button.active {
-          background: #2d539e;
-          border: 1px solid #2d539e;
-          color: #fff;
-        }
-        a.post-link {
-
-          color: #2d539e;
-        }
-      </style>
 
       {% include footer.html %}
 
   </body>
 </html>
+
+<script
+  src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+  integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+  crossorigin="anonymous"></script>
+
+<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+<script>
+// init Isotope
+var $grid = $('.grid').isotope({
+  $grid.isotope({ filter: Last_Post });
+});
+
+// filter items on button click
+$('.filter-button-group').on( 'click', 'a', function() {
+  var filterValue = $(this).attr('data-filter');
+  $grid.isotope({ filter: filterValue });
+});
+$('.button-group a.button').on('click', function(){
+  $('.button-group a.button').removeClass('active');
+  $(this).addClass('active');
+});
+</script>
+<style type="text/css">
+  a.button.active {
+    background: #2d539e;
+    border: 1px solid #2d539e;
+    color: #fff;
+  }
+  a.post-link {
+
+    color: #2d539e;
+  }
+</style>
