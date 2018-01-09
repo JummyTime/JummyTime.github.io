@@ -16,35 +16,10 @@
         <p class="panel-cover__description">{{ site.description }}</p>
         <hr class="panel-cover__divider panel-cover__divider--secondary">
 
-
-                  <!--
-        <div class="category-posts">
-          {% for post in site.posts %}
-          {% if {{ post.categories | first}} == {{ page.categories | first}} %}
-             <div class="element-item {{ post.categories | first}}">
-                <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-                <h2>
-                  <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" target="_blank">{{ post.title }} - {{ post.categories | first}}</a>
-                </h2>
-
-                <p>
-                  {{ post.excerpt }}
-                </p>
-             </div>
-             {% endif %}
-            {% endfor %}
-        </div>
--->
-          <!--
           <div class="button-group filter-button-group">
-          	{% for category in site.categories %}
-
-          		<li class="navigation__item"><a  href="{{ site.baseurl }}/#{{ category | first }}" class="button" data-filter=".{{ category | first }}">{{ category | first }}</a></li>
-          	{% endfor %}
-          		<li class="navigation__item"><a  href="{{ site.baseurl }}/#All"  class="button" data-filter="*">All</a></li>
+          	
           </div>
-        -->
+
 
           <nav class="cover-navigation navigation--social">
                     <ul class="navigation">
