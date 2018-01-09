@@ -21,7 +21,7 @@ defaults:
       path: ''
       type: 'posts'
     values:
-        layout: 'post_layout'
+#        layout: 'post_layout'
         permalink: /:year/:title/
 
 # Build settings
