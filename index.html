@@ -2,34 +2,38 @@
 layout: page
 ---
 
-<div class="category-specific-content-grid" style="float: right;">>
 
-  <div class="element-item running" style="clear: right;">
-    <iframe height='160' width='300' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/12438555/activity-summary/ebd056501528d545bbe6932e7baeead6a758b539'></iframe>
+<div class="isotope-grids">
+
+  <div class="category-specific-content-grid">>
+    <!--<div class="element-item running" style="clear: right;">-->
+    <div class="element-item running">
+      <iframe height='160' width='300' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/12438555/activity-summary/ebd056501528d545bbe6932e7baeead6a758b539'></iframe>
+    </div>
+    <!--<div class="element-item running" style="clear: right;">-->
+    <div class="element-item running">
+      <iframe height='454' width='300' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/12438555/latest-rides/ebd056501528d545bbe6932e7baeead6a758b539'></iframe>
+    </div>
   </div>
-  <div class="element-item running" style="clear: right;">
-    <iframe height='454' width='300' frameborder='0' allowtransparency='true' scrolling='no' src='https://www.strava.com/athletes/12438555/latest-rides/ebd056501528d545bbe6932e7baeead6a758b539'></iframe>
+
+  <div class="grid" >
+
+       {% for post in site.posts %}
+          <div class="element-item {{ post.categories | first}}">
+             <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+             <h2>
+               <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" target="_blank">{{ post.title }} - {{ post.categories | first}}</a>
+             </h2>
+
+             <p>
+               {{ post.excerpt }}
+             </p>
+          </div>
+         {% endfor %}
+
+
   </div>
-
-</div>
-
-<div class="grid" >
-
-     {% for post in site.posts %}
-        <div class="element-item {{ post.categories | first}}">
-           <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-           <h2>
-             <a class="post-link" href="{{ post.url | prepend: site.baseurl }}" target="_blank">{{ post.title }} - {{ post.categories | first}}</a>
-           </h2>
-
-           <p>
-             {{ post.excerpt }}
-           </p>
-        </div>
-       {% endfor %}
-
-
 </div>
 
 
