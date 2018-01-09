@@ -11,9 +11,9 @@
         <a href="{{ site.baseurl }}/" title="link to home of {{ site.title }}">
           <img src="{{ site.baseurl }}/images/profile.jpg" class="user-image" alt="My Profile Photo">
           <h1 class="panel-cover__title panel-title">jimmy.{{page.categories | first}}</h1>
+          <p class="panel-cover__description">filter {{page.categories | first}} posts by tag</p>
         </a>
         <hr class="panel-cover__divider">
-        <p class="panel-cover__description">filter {{page.categories | first}} posts by tag</p>
         <hr class="panel-cover__divider panel-cover__divider--secondary">
 
           <div class="button-group filter-button-group">
@@ -21,6 +21,7 @@
             {% assign page_category = page.categories | first %}
             {% for tag in site.tags %}
               {% for post in site.categories[page_category] %}
+                <li class="navigation__item"><a  href="{{tag}}" class="button" data-filter="*">{{post.title}}-{{page_category}}-{{tag[0]}}</a></li>
                 {% if post.tags[tag] %}
                   <li class="navigation__item"><a  href="{{tag}}" class="button" data-filter="*">{{tag[0]}}</a></li>
                   {% break %}
