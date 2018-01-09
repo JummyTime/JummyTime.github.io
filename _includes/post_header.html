@@ -21,8 +21,7 @@
             {% assign page_category = page.categories | first %}
             {% for tag in site.tags %}
               {% for post in site.categories[page_category] %}
-                <li class="navigation__item"><a  href="{{tag}}" class="button" data-filter="*">found a post</a></li>
-                {% if post.tags[tag[0]] %}
+                {% if post.tags[tag] %}
                   <li class="navigation__item"><a  href="{{tag}}" class="button" data-filter="*">{{tag[0]}}</a></li>
                   {% break %}
                 {% endif %}
