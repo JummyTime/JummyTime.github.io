@@ -19,7 +19,7 @@
           <div class="button-group filter-button-group">
 
             {% for tag in site.tags %}
-              <li class="navigation__item"><class="button" data-filter="*">{{tag}}</a></li>
+              <li class="navigation__item"><a  href="{{tag}}" class="button" data-filter="*">{{tag}}</a></li>
               {% for post in site.posts %}
 
                 {% if post.categories | first ==  page.categories | first %} <!-- find a post of the current category and search for instance of a tag -->
