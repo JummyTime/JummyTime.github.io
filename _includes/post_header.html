@@ -21,7 +21,7 @@
             {% for tag in site.tags %}
               {% for post in site.posts %}
 
-                {% post.tags.size > 0 %}
+                {% if post.tags.size > 0 %}
 
                   {% if post.categories | first ==  page.categories | first %} <!-- find a post of the current category and search for instance of a tag -->
                     {% for ptag in post.tags %}
