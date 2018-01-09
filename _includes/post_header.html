@@ -17,14 +17,14 @@
         <hr class="panel-cover__divider panel-cover__divider--secondary">
 
           <div class="button-group filter-button-group">
-            {% for post in site.posts %}
-              {% if post.categories | first ==  page.categories | first %}
-                <li class="navigation__item"><class="button" data-filter="*">Tag</a></li>
+
+            {% for category in site.categories %}
+              {% if category ==  page.categories | first %}
+                {% for tag in category.tags %}
+                  <li class="navigation__item"><class="button" data-filter="*">Tag</a></li>
+                {% endfor %}
               {% endif %}
             {% endfor %}
-            <!--{% for tags in page.tags %}
-          		<li class="navigation__item"><a  href="{{ site.baseurl }}/#{{ category | first }}" class="button" data-filter=".{{ category | first }}">{{ category | first }}</a></li>
-          	{% endfor %} -->
             <li class="navigation__item"><class="button" data-filter="*">All Tags</a></li>
           </div>
 
