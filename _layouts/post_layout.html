@@ -5,35 +5,38 @@
   <body>
     {% include post_header.html %}
 
-      <div class="grid" >
 
-        <div class="element-item Last">
           <div class="content-wrapper">
             <div class="content-wrapper__inner">
-              {{ content }}
+
+                <div class="grid" >
+
+                  <div class="element-item Last">
+                    {{ content }}
+                  </div>
+
+                  {% assign page_category = page.categories | first %}
+                  {% for post in site.categories[page_category] %}
+
+                    {% for ptag in post.tags %}
+                      <div class="element-item {{ ptag | remove: " "}}">
+                        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+
+                        <h2>
+                         <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} - {{ post.categories | first}}</a>
+                        </h2>
+
+                        <p>
+                         {{ post.excerpt }}
+                        </p>
+                      </div>
+                    {% endfor %}
+                  {% endfor %}
+
+              </div>
+
             </div>
           </div>
-        </div>
-
-        {% assign page_category = page.categories | first %}
-        {% for post in site.categories[page_category] %}
-
-          {% for ptag in post.tags %}
-            <div class="element-item {{ ptag | remove: " "}}">
-              <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
-
-              <h2>
-               <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} - {{ post.categories | first}}</a>
-              </h2>
-
-              <p>
-               {{ post.excerpt }}
-              </p>
-            </div>
-          {% endfor %}
-        {% endfor %}
-
-      </div>
 
       {% include footer.html %}
 
