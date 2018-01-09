@@ -21,7 +21,7 @@
             {% for category in site.categories %}
               {% if category ==  page.categories | first %}
                 {% for tag in category.tags %}
-                  <li class="navigation__item"><class="button" data-filter="*">Tag</a></li>
+                  <li class="navigation__item"><class="button" data-filter="*">{{ tag }}</a></li>
                 {% endfor %}
               {% endif %}
             {% endfor %}
