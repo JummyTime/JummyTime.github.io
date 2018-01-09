@@ -38,38 +38,39 @@
       {% include footer.html %}
 
   </body>
+
+  <script
+    src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
+    integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
+    crossorigin="anonymous"></script>
+
+  <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
+  <script>
+  // init Isotope
+  var $grid = $('.grid').isotope({
+      filter: ".Last"
+  });
+
+  // filter items on button click
+  $('.filter-button-group').on( 'click', 'a', function() {
+    var filterValue = $(this).attr('data-filter');
+    $grid.isotope({ filter: filterValue });
+  });
+  $('.button-group a.button').on('click', function(){
+    $('.button-group a.button').removeClass('active');
+    $(this).addClass('active');
+  });
+  </script>
+  <style type="text/css">
+    a.button.active {
+      background: #2d539e;
+      border: 1px solid #2d539e;
+      color: #fff;
+    }
+    a.post-link {
+
+      color: #2d539e;
+    }
+  </style>
+
 </html>
-
-<script
-  src="https://code.jquery.com/jquery-3.2.1.slim.min.js"
-  integrity="sha256-k2WSCIexGzOj3Euiig+TlR8gA0EmPjuc79OEeY5L45g="
-  crossorigin="anonymous"></script>
-
-<script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
-<script>
-// init Isotope
-var $grid = $('.grid').isotope({
-  
-});
-
-// filter items on button click
-$('.filter-button-group').on( 'click', 'a', function() {
-  var filterValue = $(this).attr('data-filter');
-  $grid.isotope({ filter: filterValue });
-});
-$('.button-group a.button').on('click', function(){
-  $('.button-group a.button').removeClass('active');
-  $(this).addClass('active');
-});
-</script>
-<style type="text/css">
-  a.button.active {
-    background: #2d539e;
-    border: 1px solid #2d539e;
-    color: #fff;
-  }
-  a.post-link {
-
-    color: #2d539e;
-  }
-</style>
