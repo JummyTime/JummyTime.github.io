@@ -7,67 +7,70 @@
 
       <div class="grid" >
 
-          {% assign page_category = page.categories | first %}
-          {% for post in site.categories[page_category] %}
+        <div class="element-item Last_Post">
+          <div class="content-wrapper">
+            <div class="content-wrapper__inner">
+              {{ content }}
+            </div>
+          </div>
+        </div>
 
-            {% for ptag in post.tags %}
-              <div class="element-item {{ ptag }}">
-                <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+        {% assign page_category = page.categories | first %}
+        {% for post in site.categories[page_category] %}
 
-                <h2>
-                 <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} - {{ post.categories | first}}</a>
-                </h2>
+          {% for ptag in post.tags %}
+            <div class="element-item {{ ptag }}">
+              <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-                <p>
-                 {{ post.excerpt }}
-                </p>
-              </div>
-            {% endfor %}
+              <h2>
+               <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }} - {{ post.categories | first}}</a>
+              </h2>
+
+              <p>
+               {{ post.excerpt }}
+              </p>
+            </div>
           {% endfor %}
-
-          <script>
-          // init Isotope
-          var $grid = $('.grid').isotope({
-            // options
-          });
-
-          // filter items on button click
-          $('.filter-button-group').on( 'click', 'a', function() {
-            var filterValue = $(this).attr('data-filter');
-            $grid.isotope({ filter: filterValue });
-
-            if ($(this).attr('data-filter') != "*") {
-                  $cscgrid.isotope({ filter: filterValue });
-            } else {
-                  $cscgrid.isotope({ filter: "none" });
-            }
-
-          });
-          $('.button-group a.button').on('click', function(){
-          	$('.button-group a.button').removeClass('active');
-          	$(this).addClass('active');
-          });
-          </script>
-          <style type="text/css">
-            a.button.active {
-              background: #2d539e;
-              border: 1px solid #2d539e;
-              color: #fff;
-            }
-            a.post-link {
-
-              color: #2d539e;
-            }
-          </style>
+        {% endfor %}
 
       </div>
 
-      <div class="content-wrapper">
-        <div class="content-wrapper__inner">
-          {{ content }}
-        </div>
-
       {% include footer.html %}
-    </div>
+
   </body>
 </html>
+
+<script>
+// init Isotope
+var $grid = $('.grid').isotope({
+  // options
+});
+
+// filter items on button click
+$('.filter-button-group').on( 'click', 'a', function() {
+  var filterValue = $(this).attr('data-filter');
+  $grid.isotope({ filter: filterValue });
+
+  if ($(this).attr('data-filter') != "*") {
+        $cscgrid.isotope({ filter: filterValue });
+  } else {
+        $cscgrid.isotope({ filter: "none" });
+  }
+
+});
+$('.button-group a.button').on('click', function(){
+  $('.button-group a.button').removeClass('active');
+  $(this).addClass('active');
+});
+</script>
+<style type="text/css">
+  a.button.active {
+    background: #2d539e;
+    border: 1px solid #2d539e;
+    color: #fff;
+  }
+  a.post-link {
+
+    color: #2d539e;
+  }
+</style>
