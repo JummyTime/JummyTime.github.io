@@ -26,9 +26,9 @@
                   <li class="navigation__item"><a  href="{{tag}}" class="button" data-filter="*">{{post.title}}-{{ptag}}</a></li>
                 {% endfor%}
               -->
-
                 {% assign ptag = tag[0] %}
                   <li class="navigation__item"><a  href="{{tag}}" class="button" data-filter="*">{{ptag}}</a></li>
+                  <li class="navigation__item"><a  href="{{tag}}" class="button" data-filter="*">{{tag[1]}}</a></li>
                 {% if post.tags[ptag] %}
                   <li class="navigation__item"><a  href="{{tag}}" class="button" data-filter="*">{{tag[0]}}</a></li>
                 {% endif %}
