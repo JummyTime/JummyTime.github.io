@@ -18,7 +18,7 @@
 
           <div class="button-group filter-button-group">
             {% for post in site.posts %}
-              {% if {{ post.categories | first}} == {{ page.categories | first}} %}
+              {% if post.categories | first ==  page.categories | first %}
                 <li class="navigation__item"><class="button" data-filter="*">Tag</a></li>
               {% endif %}
             {% endfor %}
