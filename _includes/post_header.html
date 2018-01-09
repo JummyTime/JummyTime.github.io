@@ -18,6 +18,23 @@
 
           <div class="button-group filter-button-group">
 
+            {% for tag in site.tags %}
+              {% for post in site.posts %}
+
+                {% if post.categories | first ==  page.categories | first %} <!-- find a post of the current category and search for instance of a tag -->
+                  {% for ptag in post.tags %}
+
+                    {% if ptag == tag %}
+                      <li class="navigation__item"><class="button" data-filter="*">{{ tag }}</a></li>
+                    {% endif %}
+
+                  {% endfor %}
+                {% endif %}
+
+              {% endfor %}
+            {% endfor %}
+
+            <!--
             {% for category in site.categories %}
               {% if category ==  page.categories | first %}
                 {% for tag in category.tags %}
@@ -25,6 +42,8 @@
                 {% endfor %}
               {% endif %}
             {% endfor %}
+          -->
+          
             <li class="navigation__item"><class="button" data-filter="*">All Tags</a></li>
           </div>
 
