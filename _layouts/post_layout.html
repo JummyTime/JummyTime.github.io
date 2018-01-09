@@ -19,7 +19,7 @@
         {% for post in site.categories[page_category] %}
 
           {% for ptag in post.tags %}
-            <div class="element-item {{ ptag }}">
+            <div class="element-item {{ ptag | remove: " "}}">
               <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
               <h2>
