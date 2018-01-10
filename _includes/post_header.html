@@ -20,6 +20,7 @@
 
             {% assign page_category = page.categories | first %}
             {% for tag in site.tags %}
+              {% if tag[0].size > 1 %} <!-- skip if tag empty (length < 1)-->
 
                 {% for post in site.categories[page_category] %}
 
@@ -33,18 +34,19 @@
                         {% endif %}
                       {% endfor %}
 
-                      {% if ctag.size > 2 %}
+                      {% if ctag != "" %}
                         <li class="navigation__item"><a  href="{{ page.url | prepend: site.baseurl }}#{{ctag}}" class="button" data-filter=".{{ ctag | remove: " "}}">{{ctag}}</a></li>
                         {% assign ctag = "" %}
                         {% break %} <!-- break and continue to next tag-->
                       {% endif %}
 
-                    {% endif %} <!-- {% if post.tags.size > 0 %} -->
-                  {% endif %} <!-- {% if post.published %} -->
+                    {% endif %} <!-- {% for post in site.categories[page_category] %} -->
+                  {% endif %} <!-- {% for post in site.categories[page_category] %} -->
 
                 {% endfor %} <!-- {% for post in site.categories[page_category] %} -->
 
-            {% endfor %}<!-- {% for tag in site.tags %} -->
+              {% endif %}  <!-- {% for post in site.categories[page_category] %} -->
+            {% endfor %}<!-- {% for post in site.categories[page_category] %} -->
 
             <!-- <li class="navigation__item"><a  href="{{ page.url | prepend: site.baseurl }}#All Tags" class="button" data-filter="*">All Tags</a></li>-->
             <li class="navigation__item"><a  href="{{ page.url | prepend: site.baseurl }}#Last Post" class="button" data-filter=".Last">What was I reading?</a></li>
