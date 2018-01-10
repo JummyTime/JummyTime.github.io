@@ -29,8 +29,9 @@
 
             {% assign tags_uniq = tags_csv | split: ", " | uniq %}
 
+              <li class="navigation__item"><a  href="{{ page.url | prepend: site.baseurl }}#{{ctag}}" class="button" data-filter=".{{ ctag | remove: " "}}">{{tags_csv}}</a></li>
             {% for tag in tags_uniq %}
-              <li class="navigation__item"><a  href="{{ page.url | prepend: site.baseurl }}#{{ctag}}" class="button" data-filter=".{{ ctag | remove: " "}}">{{ctag}}</a></li>
+              <li class="navigation__item"><a  href="{{ page.url | prepend: site.baseurl }}#{{ctag}}" class="button" data-filter=".{{ ctag | remove: " "}}">{{tag}}</a></li>
             {% endfor %}
 
             <!-- <li class="navigation__item"><a  href="{{ page.url | prepend: site.baseurl }}#All Tags" class="button" data-filter="*">All Tags</a></li>-->
