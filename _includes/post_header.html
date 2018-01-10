@@ -22,20 +22,22 @@
             {% for tag in site.tags %}
               {% for post in site.categories[page_category] %}
                 {% if post.published %}
+                  {% if post.tags.size > 0 %}
 
-                  {% for ptag in post.tags %}
-                    {% if ptag == tag[0] %}
-                      {% assign ctag = tag[0] %}
-                      {% break %} <!-- break to add tag-->
+                    {% for ptag in post.tags %}
+                      {% if ptag == tag[0] %}
+                        {% assign ctag = tag[0] %}
+                        {% break %} <!-- break to add tag-->
+                      {% endif %}
+                    {% endfor %}
+
+                    {% if ctag != "" %}
+                      <li class="navigation__item"><a  href="{{ page.url | prepend: site.baseurl }}#{{ctag}}" class="button" data-filter=".{{ ctag | remove: " "}}">{{ctag}}</a></li>
+                      {% assign ctag = "" %}
+                      {% break %} <!-- break and continue to next tag-->
                     {% endif %}
-                  {% endfor %}
 
-                  {% if ctag != "" %}
-                    <li class="navigation__item"><a  href="{{ page.url | prepend: site.baseurl }}#{{ctag}}" class="button" data-filter=".{{ ctag | remove: " "}}">{{ctag}}</a></li>
-                    {% assign ctag = "" %}
-                    {% break %} <!-- break and continue to next tag-->
-                  {% endif %}
-
+                  {% endif %} <!-- skip if no tags -->
                 {% endif %} <!-- skip if post is not published-->
 
               {% endfor %}
