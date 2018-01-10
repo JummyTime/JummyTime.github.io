@@ -33,7 +33,7 @@
                         {% endif %}
                       {% endfor %}
 
-                      {% if ctag | size > 2 %}
+                      {% if ctag.size > 2 %}
                         <li class="navigation__item"><a  href="{{ page.url | prepend: site.baseurl }}#{{ctag}}" class="button" data-filter=".{{ ctag | remove: " "}}">{{ctag}}</a></li>
                         {% assign ctag = "" %}
                         {% break %} <!-- break and continue to next tag-->
