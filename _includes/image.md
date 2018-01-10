@@ -1,9 +1,11 @@
 {% capture imagePath %}{{ page.date | date: "%Y-%m-%d" }}-{{ page.title | slugify }}/{{ include.name }}{% endcapture %}
 {% if include.caption %}
-    <figure>
+    <!--<figure>
         <img src="/assets/post-images/{{ imagePath }}" {% if include.alt %} alt="{{ include.alt }}" {% endif %} {% if include.width %} width="{{ include.width }}" {% endif %}/>
         <figcaption>{{ include.caption }}</figcaption>
-    </figure>
+    </figure>-->
+    ![{{ include.caption }}](/assets/post-images/{{ imagePath }})
 {% else %}
-    <img src="/assets/post-imagess/{{ imagePath }}" {% if include.alt %} alt="{{ include.alt }}" {% endif %} {% if include.width %} width="{{ include.width }}" {% endif %}/>
+    <!--<img src="/assets/post-imagess/{{ imagePath }}" {% if include.alt %} alt="{{ include.alt }}" {% endif %} {% if include.width %} width="{{ include.width }}" {% endif %}/>-->
+    ![{{ imagePath }}](/assets/post-images/{{ imagePath }})
 {% endif %}
