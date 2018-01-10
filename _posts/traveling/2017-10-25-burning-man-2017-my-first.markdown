@@ -11,7 +11,9 @@ published: true
 
 Burning Man 2017
 
-<img src="/assets/post-images/2017-10-25-burning-man-2017-my-first/me-and-paul.jpg"/>
+<figure>
+  <img src="/assets/post-images/2017-10-25-burning-man-2017-my-first/me-and-paul.jpg"/>
+</figure>
 
 {% include image.html name="me-and-paul.jpg" caption="My buddy Paul and I at funkytown camp." %}
 
