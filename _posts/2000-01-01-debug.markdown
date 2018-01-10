@@ -16,6 +16,7 @@ published: true
 
     {% for post in site.categories[page_category] %}
       {{ post.date | date: "%Y-%m-%d" }}-{{ post.title | slugify }}
+      {{ post.path }}
     {% endfor %}
 
 {% endfor %}
