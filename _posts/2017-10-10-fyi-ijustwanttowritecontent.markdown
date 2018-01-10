@@ -1,10 +1,11 @@
 ---
 layout: post
 there: minima
-title: "I juat want to write content"
+title: "I just want to write content"
 date: 2017-10-10 22:00:00 -0000
 categories: fyi
 tags: [this-blog]
+published: true
 ---
 
 What good is this site if I'm too busy tooling around with the platform to generate content?
