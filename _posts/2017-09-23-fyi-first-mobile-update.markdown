@@ -5,7 +5,7 @@ title: "First mobile update"
 date: 2017-09-23 22:00:00 -0000
 categories: fyi
 tags: [this-blog, celebrity-comparisons]
-
+published: true
 ---
 
 

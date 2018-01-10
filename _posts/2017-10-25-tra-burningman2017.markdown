@@ -1,11 +1,12 @@
 ---
 layout: post
 there: minima
-title: "Traveling Category Post"
+title: "Burning Man 2017 (my first)"
 date: 2017-10-25 05:00:00 -0000
 categories: traveling
-tags: [vacation]
+tags: [vacation, festival]
+published: true
 ---
 
 
-Traveling Category Post
+Burning Man 2017

@@ -1,11 +1,12 @@
 ---
 layout: post
 there: minima
-title: "Traveling Category Post"
+title: "Michigan UP and Around"
 date: 2017-10-25 05:00:00 -0000
 categories: traveling
-tags: [vacation]
+tags: [vacation, work-travel]
+published: true
 ---
 
 
-Traveling Category Post
+Michigan UP and Around
