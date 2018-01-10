@@ -20,7 +20,6 @@
 
             {% assign page_category = page.categories | first %}
             {% for tag in site.tags %}
-              {% if tag | size > 1 %} <!-- skip if tag empty (length < 1)-->
 
                 {% for post in site.categories[page_category] %}
 
@@ -34,7 +33,7 @@
                         {% endif %}
                       {% endfor %}
 
-                      {% if ctag != "" %}
+                      {% if ctag | size > 2 %}
                         <li class="navigation__item"><a  href="{{ page.url | prepend: site.baseurl }}#{{ctag}}" class="button" data-filter=".{{ ctag | remove: " "}}">{{ctag}}</a></li>
                         {% assign ctag = "" %}
                         {% break %} <!-- break and continue to next tag-->
@@ -45,7 +44,6 @@
 
                 {% endfor %} <!-- {% for post in site.categories[page_category] %} -->
 
-              {% endif %}  <!-- {% if tag | size > 1 %} -->
             {% endfor %}<!-- {% for tag in site.tags %} -->
 
             <!-- <li class="navigation__item"><a  href="{{ page.url | prepend: site.baseurl }}#All Tags" class="button" data-filter="*">All Tags</a></li>-->
