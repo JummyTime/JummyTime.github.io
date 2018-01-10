@@ -19,19 +19,32 @@
           <div class="button-group filter-button-group">
 
             {% assign page_category = page.categories | first %}
-            {% assign tags_csv = "" %}
+            {% for tag in site.tags %}
 
-            {% for post in site.categories[page_category] %}
-              {% for tag in post.tags %}
-                {% capture tags_csv %}{{ tags_csv }}{{tag}},{% endcapture %}
-              {% endfor %}
-            {% endfor %}
+                {% for post in site.categories[page_category] %}
 
-            {% assign tags_uniq = tags_csv | split: ", " | uniq %}
+                  {% if post.published %} <!-- skip if post is not published-->
+                    {% if post.tags.size > 0 %} <!-- skip if no tags -->
 
-            {% for tag in tags_uniq %}
-              <li class="navigation__item"><a  href="{{ page.url | prepend: site.baseurl }}#{{ctag}}" class="button" data-filter=".{{ ctag | remove: " "}}">{{ctag}}</a></li>
-            {% endfor %}
+                      {% for ptag in post.tags %}
+                        {% if ptag == tag[0] %}
+                          {% assign ctag = tag[0] %}
+                          {% break %} <!-- break to add tag-->
+                        {% endif %}
+                      {% endfor %}
+
+                      {% if ctag != "" %}
+                        <li class="navigation__item"><a  href="{{ page.url | prepend: site.baseurl }}#{{ctag}}" class="button" data-filter=".{{ ctag | remove: " "}}">{{ctag}}</a></li>
+                        {% assign ctag = "" %}
+                        {% break %} <!-- break and continue to next tag-->
+                      {% endif %}
+
+                    {% endif %} <!-- {% if post.tags.size > 0 %} -->
+                  {% endif %} <!-- {% if post.published %} -->
+
+                {% endfor %} <!-- {% for post in site.categories[page_category] %} -->
+
+            {% endfor %}<!-- {% for tag in site.tags %} -->
 
             <!-- <li class="navigation__item"><a  href="{{ page.url | prepend: site.baseurl }}#All Tags" class="button" data-filter="*">All Tags</a></li>-->
             <li class="navigation__item"><a  href="{{ page.url | prepend: site.baseurl }}#Last Post" class="button" data-filter=".Last">What was I reading?</a></li>
