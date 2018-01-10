@@ -10,3 +10,5 @@ published: true
 
 
 Burning Man 2017
+
+{% include image name="me-and-paul.jpg" caption="My buddy Paul and I at funkytown camp." %}
