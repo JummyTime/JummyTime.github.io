@@ -20,7 +20,9 @@
 
             {% assign page_category = page.categories | first %}
             {% for tag in site.tags %}
-              {% if tag[0].size > 1 %} <!-- skip if tag empty (length < 1)-->
+
+              {% assign tag_length_check = tag[0] | size %}
+              {% if tag_length_check > 1 %} <!-- skip if tag empty (length < 1)-->
 
                 {% for post in site.categories[page_category] %}
 
