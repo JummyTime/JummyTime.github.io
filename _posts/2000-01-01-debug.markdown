@@ -1,0 +1,13 @@
+---
+layout: post
+there: minima
+title: "debug"
+date: 2000-01-01 22:00:00 -0000
+published: false
+---
+
+
+**slugified post titles**
+{% for post in site.posts %}
+  {{ post.title | slugify }}
+{% endfor %}
