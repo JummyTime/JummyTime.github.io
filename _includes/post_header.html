@@ -21,9 +21,6 @@
             {% assign page_category = page.categories | first %}
             {% for tag in site.tags %}
 
-              {% assign tag_length_check = tag[0].size %}
-              {% if tag_length_check > 1 %} <!-- skip if tag empty (length < 1)-->
-
                 {% for post in site.categories[page_category] %}
 
                   {% if post.published %}<!-- skip if post is not published-->
@@ -46,8 +43,7 @@
                   {% endif %} <!-- {% for post in site.categories[page_category] %} -->
 
                 {% endfor %} <!-- {% for post in site.categories[page_category] %} -->
-
-              {% endif %}  <!-- {% for post in site.categories[page_category] %} -->
+                
             {% endfor %}<!-- {% for post in site.categories[page_category] %} -->
 
             <!-- <li class="navigation__item"><a  href="{{ page.url | prepend: site.baseurl }}#All Tags" class="button" data-filter="*">All Tags</a></li>-->
