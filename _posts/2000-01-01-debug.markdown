@@ -10,7 +10,7 @@ published: true
 **slugified post titles**
 
 {% for category in site.categories %}
-    **{{ category }}**
+    **{{ category | first }}**
   {% for post in site.categories[category] %}
     {{ post.date | date: "%Y-%m-%d" }}-{{ post.title | slugify }}
   {% endfor %}
