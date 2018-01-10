@@ -29,7 +29,7 @@
 
             {% assign tags_array = tags_csv | split: "," %}
 
-            {% for tag in tags_array | uniq | join: ","%}
+            {% for tag in tags_array | uniq%}
               <li class="navigation__item"><a  href="{{ page.url | prepend: site.baseurl }}#{{ctag}}" class="button" data-filter=".{{ ctag | remove: " "}}">{{tag}}</a></li>
             {% endfor %}
 
