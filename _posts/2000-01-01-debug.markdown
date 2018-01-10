@@ -8,6 +8,10 @@ published: true
 
 
 **slugified post titles**
-{% for post in site.posts %}
-  {{ post.title | slugify }}
+
+{% for category in site.categories %}
+    **{{ category }}**
+  {% for post in site.categories[category] %}
+    {{ page.date | date: "%Y-%m-%d" }}-{{ page.title | slugify }}
+  {% endfor %}
 {% endfor %}
