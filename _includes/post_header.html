@@ -27,10 +27,10 @@
               {% endfor %}
             {% endfor %}
 
-            {% assign tags_uniq = tags_csv | split: ", " | uniq %}
+            {% assign tags_array = tags_csv | split: ", " %}
 
               <li class="navigation__item"><a  href="{{ page.url | prepend: site.baseurl }}#{{ctag}}" class="button" data-filter=".{{ ctag | remove: " "}}">{{tags_csv}}</a></li>
-            {% for tag in tags_uniq %}
+            {% for tag in tags_array | uniq | join: ", " }} %}
               <li class="navigation__item"><a  href="{{ page.url | prepend: site.baseurl }}#{{ctag}}" class="button" data-filter=".{{ ctag | remove: " "}}">{{tag}}</a></li>
             {% endfor %}
 
