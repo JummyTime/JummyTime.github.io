@@ -6,15 +6,25 @@
 
 <script src="https://unpkg.com/isotope-layout@3/dist/isotope.pkgd.min.js"></script>
 <script>
-// init Isotope
+// init Isotope grid - used on index to filter posts by category, and on posts to filter category-posts by tag
 var $grid = $('.grid').isotope({
     filter: ".Last"
+});
+// init Isotope grid - used on index to filter non-post but same category related content
+var $cscgrid = $('.category-specific-content-grid').isotope({
+  // options
 });
 
 // filter items on button click
 $('.filter-button-group').on( 'click', 'a', function() {
   var filterValue = $(this).attr('data-filter');
   $grid.isotope({ filter: filterValue });
+
+  if ($(this).attr('data-filter') != "*") {
+        $cscgrid.isotope({ filter: filterValue });
+  } else {
+        $cscgrid.isotope({ filter: "none" });
+  }
 });
 $('.button-group a.button').on('click', function(){
   $('.button-group a.button').removeClass('active');
