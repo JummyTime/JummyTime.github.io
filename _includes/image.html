@@ -1,12 +1,17 @@
 {% capture imagePath %}{{ page.date | date: "%Y-%m-%d" }}-{{ page.title | slugify }}/{{ include.name }}{% endcapture %}
 
-<div>
+<div style="float: left">
   {% if include.caption %}
       <figure>
-          <img src="/assets/post-images/{{ imagePath }}" {% if include.alt %} alt="{{ include.alt }}" {% endif %} {% if include.width %} width="{{ include.width }}" {% endif %}/>
+
+          {% if include.clickable %} <a href="/assets/post-images/{{ imagePath }}"  target="_blank" > {% endif %}
+            <img src="/assets/post-images/{{ imagePath }}" {% if include.alt %} alt="{{ include.alt }}" {% endif %} {% if include.width %} width="{{ include.width }}" {% endif %}/>
+          {% if include.clickable %} </a> {% endif %}
           <figcaption>{{ include.caption }}</figcaption>
       </figure>
   {% else %}
-      <img src="/assets/post-imagess/{{ imagePath }}" {% if include.alt %} alt="{{ include.alt }}" {% endif %} {% if include.width %} width="{{ include.width }}" {% endif %}/>
+    {% if include.clickable %} <a href="/assets/post-images/{{ imagePath }}"  target="_blank" > {% endif %}
+      <img src="/assets/post-images/{{ imagePath }}" {% if include.alt %} alt="{{ include.alt }}" {% endif %} {% if include.width %} width="{{ include.width }}" {% endif %}/>
+    {% if include.clickable %} </a> {% endif %}
   {% endif %}
 </div>
