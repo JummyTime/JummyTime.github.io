@@ -9,7 +9,7 @@ published: true
 ---
 Finished project preview.
 
-
+[link](https://www.youtube.com/watch?v=dQw4w9WgXcQ&showinfo=0&rel=0)
 {% include image-gallery.html folder="/assets/post-images/2016-12-02-laundry-room-brewery-pt-1"%}
 
 **History:**
