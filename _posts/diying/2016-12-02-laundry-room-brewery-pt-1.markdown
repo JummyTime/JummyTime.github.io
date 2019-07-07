@@ -9,9 +9,6 @@ published: true
 ---
 Finished project preview.
 
-<!-- load lightbox after footer since it contains js defs -->
-{% include lightbox.html %}
-{% include lazyload.html %}
 
 {% include image-gallery.html folder="/assets/post-images/2016-12-02-laundry-room-brewery-pt-1"%}
 
