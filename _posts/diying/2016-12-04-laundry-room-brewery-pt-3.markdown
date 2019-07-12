@@ -13,6 +13,7 @@ Installing Exhaust.
 [part 1]({% post_url 2016-12-02-laundry-room-brewery-pt-1 %})
 [part 2]({% post_url 2016-12-03-laundry-room-brewery-pt-2 %})
 
+<!-- excerpt -->
 Major Materials (~$300)  
 - Vortex 6” “Silent” Fan
 - Rigid Duct 6” (5x5ft sections, 1 swivel elbow , mastic)
@@ -22,7 +23,7 @@ Major Materials (~$300)
 - Flexible Duct 25ft (I used a couple strips for for hard to reach places under eaves where - rigid was not an option)
 - WeMo switch
 
-<!--more-->
+<!-- excerpt -->
 
 <table style="width:100%">
   <tr>

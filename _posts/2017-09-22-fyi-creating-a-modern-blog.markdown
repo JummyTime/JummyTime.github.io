@@ -7,8 +7,9 @@ categories: fyi
 tags: [this-blog]
 published: true
 ---
+<!-- excerpt -->
 It seems like every competent - and worldly- computer engineer has a blog. After seven years of Controls Engineering, predominantly improving FrontEnd applications, I have decided to also force feed my thoughts to the internet, as stylishly as I can.
-<!--more-->
+<!-- excerpt -->
 
 First things first,  I will build a website with the following stack:
 - *jekyll*

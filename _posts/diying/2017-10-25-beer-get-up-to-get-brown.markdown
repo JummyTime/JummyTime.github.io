@@ -9,5 +9,6 @@ published: false
 ---
 
 
+<!-- excerpt -->
 Beer - Get up to get Brown
-<!--more-->
+<!-- excerpt -->

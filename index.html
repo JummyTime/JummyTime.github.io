@@ -41,7 +41,15 @@ layout: page
              &#8226; <span class="post-meta__wordcount"> {{ words | append: " words" }} </span>
 
              <p>
-               {{ post.excerpt }}
+
+               {% assign excerpt = post.content | split: '<!-- excerpt -->' %}
+               {% assign excerpt_size = excerpt | size %}
+               {% if excerpt_size != 1 %}
+                  {{excerpt[1]}}
+               {% else %}
+                  {{post.excerpt}}
+               {% endif %}
+
              </p>
           </div>
          {% endfor %}

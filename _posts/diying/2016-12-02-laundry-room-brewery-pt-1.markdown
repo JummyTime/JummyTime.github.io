@@ -4,7 +4,7 @@ there: minima
 title: "Laundry Room Brewery pt 1"
 date: 2016-12-02
 categories: diying
-tags: [homebrew]
+tags: [homebrew]  
 published: True
 ---
 
@@ -18,10 +18,11 @@ Finished project preview.
 -->
 
 **History:**
+<!-- excerpt -->
 
 I’ve been brewing for about 6 years. It all started with eBiab in an apartment and I’ve been steadily cultivating my setup since then. Two years ago I upgraded to a two kettle eHerms, a modified [Kal clone](http://www.theelectricbrewery.com/) that was essentially mobile. I loved using the system, but I knew early on I’d need to install the setup somewhere to save myself the trouble of setup/breakdown; brew more often in less time.
 
-<!--more-->
+<!-- excerpt -->
 
 Last year I bought a house and began working on this.
 

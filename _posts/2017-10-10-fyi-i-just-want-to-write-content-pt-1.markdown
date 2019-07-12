@@ -8,10 +8,11 @@ tags: [this-blog]
 published: true
 ---
 
+<!-- excerpt -->
 What good is this site if I'm too busy tooling around with the platform to generate content?
 
 I didn't want to borrow code and copy templates. I wanted the satisfaction of learning this platform from the ground up. I even planned to share nuggets of experience along the way, paying forward the benefits I enjoyed by digesting other's work.
-<!--more-->
+<!-- excerpt -->
 
 **\*didn't**  
 **\.**  

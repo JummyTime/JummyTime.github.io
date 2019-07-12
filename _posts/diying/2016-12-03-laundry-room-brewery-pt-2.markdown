@@ -12,6 +12,8 @@ Where it all began.
 **Series**  
 [part 1]({% post_url 2016-12-02-laundry-room-brewery-pt-1 %})
 
+
+<!-- excerpt -->
 **The original Space:**  
 - Major Materials (~150$)
   - 220v gfci breaker
@@ -19,7 +21,7 @@ Where it all began.
   - 220v outlet
   - 12/4 romex
 
-<!--more-->
+  <!-- excerpt -->
 
 Starting Place:  
   {% include image.html name="starting-place-1.jpg" width=350 %}
