@@ -19,6 +19,8 @@ Where it all began.
   - 220v outlet
   - 12/4 romex
 
+<!--more-->
+
 Starting Place:  
   {% include image.html name="starting-place-1.jpg" width=350 %}
   {% include image.html name="starting-place-2.jpg" width=350 %}

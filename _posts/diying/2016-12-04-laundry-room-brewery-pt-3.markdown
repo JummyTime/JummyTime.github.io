@@ -22,6 +22,8 @@ Major Materials (~$300)
 - Flexible Duct 25ft (I used a couple strips for for hard to reach places under eaves where - rigid was not an option)
 - WeMo switch
 
+<!--more-->
+
 <table style="width:100%">
   <tr>
     {% include image_table.html name="before-install-attic.jpg" width=500 clickable="true" %}
