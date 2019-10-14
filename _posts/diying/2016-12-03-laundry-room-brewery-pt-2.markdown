@@ -2,10 +2,10 @@
 layout: post
 there: minima
 title: "Laundry Room Brewery pt 2"
-date: 2016-12-03 06:00:00 -0000
+date: 2016-12-03
 categories: diying
 tags: [homebrew]
-published: false
+published: True
 ---
 Where it all began.
 

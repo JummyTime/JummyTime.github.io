@@ -2,10 +2,10 @@
 layout: post
 there: minima
 title: "Laundry Room Brewery pt 3"
-date: 2016-12-04 06:00:00 -0000
+date: 2016-12-04
 categories: diying
 tags: [homebrew]
-published: false
+published: True
 ---
 Installing Exhaust.
 
