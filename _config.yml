@@ -8,8 +8,8 @@ description: >
 # disqus_shortname: 'your-disqus-name'
 
 author:
-  name: 'Jimmy Warren'
-  email: jimmy@jimmy.fyi
+  #name: 'Jimmy Warren'
+  #email: jimmy@jimmy.fyi
   #twitter_username: <name>
   #facebook_username: <name>
   #github_username:  <name>
@@ -43,3 +43,6 @@ kramdown:
 
 plugins: ['jekyll-paginate']
 exclude: ['README.md', 'Gemfile', 'Gemfile.lock', 'screenshot.png']
+
+gems:
+- jekyll-email-protect
