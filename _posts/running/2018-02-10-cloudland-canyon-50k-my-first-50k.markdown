@@ -5,7 +5,7 @@ title: "Cloudland Canyon 50k"
 date: 2018-02-10 05:00:00 -0000
 categories: running
 tags: [race-report]
-published: false
+published: true
 ---
 
 My Grandpa always said : "That ditch looks stupid." 
