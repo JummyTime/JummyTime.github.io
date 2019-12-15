@@ -12,7 +12,7 @@ published: True
 **Series**  
 <!-- {% include_relative series/Laundry-Room-Brewery.markdown %} -->
 {% capture my_include %}
-{% include_relative series/Laundry-Room-Brewery.md %}
+{% include series/Laundry-Room-Brewery.md %}
 {% endcapture %}
 
 <!-- {{ my_include | markdownify }} -->
