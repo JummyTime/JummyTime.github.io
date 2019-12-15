@@ -11,7 +11,10 @@ published: True
 
 **Series**  
 <!-- {% include_relative series/Laundry-Room-Brewery.markdown %} -->
-{% capture my_include %}{% include_relative series/Laundry-Room-Brewery.markdown %}{% endcapture %}
+{% capture my_include %}
+{% include_relative series/Laundry-Room-Brewery.markdown %}
+{% endcapture %}
+
 {{ my_include | markdownify }}
 <!-- 
 [part 1]({% post_url 2016-12-02-laundry-room-brewery-pt-1 %})
