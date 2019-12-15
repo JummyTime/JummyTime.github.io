@@ -25,10 +25,13 @@ Major Materials (~$300)
 
 <!-- excerpt -->
 
-<table style="width:100%">
+
+{% include image-gallery.html folder="/assets/post-images/2016-12-04-laundry-room-brewery-pt-3"%}
+
+<!-- <table style="width:100%">
   <tr>
     {% include image_table.html name="before-install-attic.jpg" width=500 clickable="true" %}
     {% include image_table.html name="before-install-attic.jpg" width=500 clickable="true" %}
     {% include image_table.html name="before-install-attic.jpg" width=500 %}
   </tr>
-</table>
+</table> -->

@@ -23,9 +23,11 @@ Where it all began.
 
   <!-- excerpt -->
 
-Starting Place:  
+
+{% include image-gallery.html folder="/assets/post-images/2016-12-03-laundry-room-brewery-pt-2"%}
+<!-- Starting Place:  
   {% include image.html name="starting-place-1.jpg" width=350 %}
   {% include image.html name="starting-place-2.jpg" width=350 %}
-  {% include image.html name="starting-place-3.jpg" width=350 %}
+  {% include image.html name="starting-place-3.jpg" width=350 %} -->
 
 Pictured with original washer and dryer. I was fortunate to find a trade for a front load set which facilitated the final build.
