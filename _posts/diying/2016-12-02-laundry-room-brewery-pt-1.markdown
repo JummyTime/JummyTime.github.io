@@ -11,6 +11,7 @@ published: True
 
 **Series**  
 {% include_relative series/Laundry-Room-Brewery.markdown %}
+
 <!-- 
 [part 1]({% post_url 2016-12-02-laundry-room-brewery-pt-1 %})
 [part 2]({% post_url 2016-12-03-laundry-room-brewery-pt-2 %})
