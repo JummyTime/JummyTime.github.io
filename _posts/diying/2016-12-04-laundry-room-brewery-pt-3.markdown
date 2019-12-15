@@ -7,11 +7,11 @@ categories: diying
 tags: [homebrew]
 published: True
 ---
-Installing Exhaust.
 
 **Series**  
 [part 1]({% post_url 2016-12-02-laundry-room-brewery-pt-1 %})
 [part 2]({% post_url 2016-12-03-laundry-room-brewery-pt-2 %})
+[part 3]({% post_url 2016-12-04-laundry-room-brewery-pt-3 %})
 
 <!-- excerpt -->
 Major Materials (~$300)  
@@ -25,6 +25,7 @@ Major Materials (~$300)
 
 <!-- excerpt -->
 
+Installing Exhaust.
 
 {% include image-gallery.html folder="/assets/post-images/2016-12-04-laundry-room-brewery-pt-3"%}
 

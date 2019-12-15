@@ -8,6 +8,8 @@ tags: [race-report]
 published: false
 ---
 
+<!-- excerpt -->
 My Grandpa always said "Carbon ruins everything." 
+<!-- excerpt -->
 
 Black Diamond 40 mile relay
