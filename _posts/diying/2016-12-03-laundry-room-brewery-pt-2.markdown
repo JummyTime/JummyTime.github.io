@@ -7,12 +7,13 @@ categories: diying
 tags: [homebrew]
 published: True
 ---
+<!-- excerpt -->
 Where it all began.
+<!-- excerpt -->
 
 **Series**  
 {% include series/Laundry-Room-Brewery.md %}
 
-<!-- excerpt -->
 **The original Space:**  
 - Major Materials (~150$)
   - 220v gfci breaker
@@ -20,7 +21,6 @@ Where it all began.
   - 220v outlet
   - 12/4 romex
 
-  <!-- excerpt -->
 
 
 {% include image-gallery.html folder="/assets/post-images/2016-12-03-laundry-room-brewery-pt-2"%}

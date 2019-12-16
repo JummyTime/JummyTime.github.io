@@ -8,10 +8,13 @@ tags: [homebrew]
 published: True
 ---
 
+<!-- excerpt -->
+Installing Exhaust.
+<!-- excerpt -->
+
 **Series**  
 {% include series/Laundry-Room-Brewery.md %}
 
-<!-- excerpt -->
 Major Materials (~$300)  
 - Vortex 6” “Silent” Fan
 - Rigid Duct 6” (5x5ft sections, 1 swivel elbow , mastic)
@@ -21,9 +24,7 @@ Major Materials (~$300)
 - Flexible Duct 25ft (I used a couple strips for for hard to reach places under eaves where - rigid was not an option)
 - WeMo switch
 
-<!-- excerpt -->
 
-Installing Exhaust.
 
 {% include image-gallery.html folder="/assets/post-images/2016-12-04-laundry-room-brewery-pt-3"%}
 
