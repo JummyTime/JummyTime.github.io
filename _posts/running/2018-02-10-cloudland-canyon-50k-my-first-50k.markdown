@@ -2,13 +2,16 @@
 layout: post
 there: minima
 title: "Cloudland Canyon 50k"
-date: 2018-02-10 05:00:00 -0000
+date: 2018-02-10
 categories: running
 tags: [race-report]
-published: true
+published: True
 ---
+A Race Report.
 
+<!-- excerpt -->
 My Grandpa always said : "That ditch looks stupid." 
+<!-- excerpt -->
 
 **Setup:**
 CC50 Takes place in Cloudland Canyon State Park, in GA, tucked into the GA=>AL/TN armpit. Also, when I say 'armpit' I'm thinking of the armpit of this French... chaudasse... I met on a backpacking trip. While doing some stream-laundry near a campsite, she reduced herself enough to reveal a part of the female body I was not prepared to admire in writing. What I'm saying is: that's an armpit you want to see more of. Y'all deal with that.

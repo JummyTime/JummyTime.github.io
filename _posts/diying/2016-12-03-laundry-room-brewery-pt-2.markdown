@@ -10,9 +10,6 @@ published: True
 Where it all began.
 
 **Series**  
-[part 1]({% post_url 2016-12-02-laundry-room-brewery-pt-1 %})
-[part 2]({% post_url 2016-12-03-laundry-room-brewery-pt-2 %})
-[part 3]({% post_url 2016-12-04-laundry-room-brewery-pt-3 %})
 
 
 <!-- excerpt -->
@@ -27,9 +24,5 @@ Where it all began.
 
 
 {% include image-gallery.html folder="/assets/post-images/2016-12-03-laundry-room-brewery-pt-2"%}
-<!-- Starting Place:  
-  {% include image.html name="starting-place-1.jpg" width=350 %}
-  {% include image.html name="starting-place-2.jpg" width=350 %}
-  {% include image.html name="starting-place-3.jpg" width=350 %} -->
 
 Pictured with original washer and dryer. I was fortunate to find a trade for a front load set which facilitated the final build.

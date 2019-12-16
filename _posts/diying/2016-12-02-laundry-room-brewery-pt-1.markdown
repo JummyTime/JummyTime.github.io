@@ -8,24 +8,12 @@ tags: [homebrew]
 published: True
 ---
 
-
 **Series**  
 {% include series/Laundry-Room-Brewery.html %}
-
-<!-- 
-[part 1]({% post_url 2016-12-02-laundry-room-brewery-pt-1 %})
-[part 2]({% post_url 2016-12-03-laundry-room-brewery-pt-2 %})
-[part 3]({% post_url 2016-12-04-laundry-room-brewery-pt-3 %}) 
--->
 
 Finished project preview.
 
 {% include image-gallery.html folder="/assets/post-images/2016-12-02-laundry-room-brewery-pt-1"%}
-
-<!--
-{% capture gallery1 %}"/assets/post-images/{{ page.date | date: "%Y-%m-%d" }}-{{ page.title | remove: " .markdown"  | remove: " -" | replace: " ", "-" | downcase }}"{% endcapture %}
-{% include image-gallery.html folder=gallery1 %}
--->
 
 **History:**
 <!-- excerpt -->
