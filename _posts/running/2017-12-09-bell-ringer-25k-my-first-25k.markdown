@@ -9,7 +9,7 @@ published: True
 ---
 
 <!-- excerpt -->
-> My Grandpa always said : "I "*rang*" a lot of "*bells*" on Omaha Beach." 
+> My Grandpa always said : "I "rang" a lot of "bells" on Omaha Beach."
 <!-- excerpt -->
 
 **Setup:**
@@ -36,14 +36,14 @@ About a mile later, with feet re-baptised in the stream, a volunteer said there 
 
 I'd do it again.
 
-**After:**
-Warm cozy Lodge party.
-Hot soup.
-Hot pancakes.
-Cobbler.
-Cold Beer.
-Coffee.
-Live music.
-Petting a bald eagle.
+**After:**  
+Warm cozy Lodge party  
+Hot soup  
+Hot pancakes  
+Cobbler  
+Cold Beer  
+Coffee  
+Live music  
+Petting a bald eagle  
 
 
