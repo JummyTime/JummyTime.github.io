@@ -9,6 +9,7 @@ published: True
 ---
 
 **Series**  
+{% include series/Laundry-Room-Brewery.md %}
 
 <!-- excerpt -->
 Major Materials (~$300)  

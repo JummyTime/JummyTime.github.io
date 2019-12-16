@@ -9,7 +9,7 @@ published: True
 ---
 
 **Series**  
-{% include series/Laundry-Room-Brewery.html %}
+{% include series/Laundry-Room-Brewery.md %}
 
 Finished project preview.
 

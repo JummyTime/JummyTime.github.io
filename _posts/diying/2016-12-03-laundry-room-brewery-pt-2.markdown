@@ -10,7 +10,7 @@ published: True
 Where it all began.
 
 **Series**  
-
+{% include series/Laundry-Room-Brewery.md %}
 
 <!-- excerpt -->
 **The original Space:**  
