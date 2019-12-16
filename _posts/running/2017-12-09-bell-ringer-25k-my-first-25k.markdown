@@ -8,7 +8,9 @@ tags: [race-report]
 published: True
 ---
 
-My Grandpa always said "I 'rang' a lot of 'bells' on Omaha Beach." 
+<!-- excerpt -->
+> My Grandpa always said "I "*rang*" a lot of "*bells*" on Omaha Beach." 
+<!-- excerpt -->
 
 **Setup:**
 The Bell Ringer 25k and 50k take place in Montgomery Bell State Park, Burns TN. The Park is well suited for a quiet, cold, early morning trail race, and that's what the 2017 Bell Ringer was. The area serves up the wet woodland beauty that TN natives take for granted, and non-natives drive passed, thoroughly unimpressed. 

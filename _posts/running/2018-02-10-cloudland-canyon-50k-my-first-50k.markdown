@@ -10,7 +10,7 @@ published: True
 A Race Report.
 
 <!-- excerpt -->
-My Grandpa always said : "That ditch looks stupid." 
+> My Grandpa always said : "That ditch looks stupid." 
 <!-- excerpt -->
 
 **Setup:**
