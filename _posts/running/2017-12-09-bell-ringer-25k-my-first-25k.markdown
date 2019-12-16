@@ -9,7 +9,7 @@ published: True
 ---
 
 <!-- excerpt -->
-> My Grandpa always said "I "*rang*" a lot of "*bells*" on Omaha Beach." 
+> My Grandpa always said : "I "*rang*" a lot of "*bells*" on Omaha Beach." 
 <!-- excerpt -->
 
 **Setup:**
