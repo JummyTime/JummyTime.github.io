@@ -45,7 +45,7 @@ layout: page
                {% assign excerpt = post.content | split: '<!-- excerpt -->' %}
                {% assign excerpt_size = excerpt | size %}
                {% if excerpt_size != 1 %}
-                  {{ excerpt[1] | markdownify | strip_html | truncate:50 }}
+                  {{ excerpt[1] | markdownify | strip_html | truncatewords :50 }}
                {% else %}
                   {{ post.excerpt | truncate:50 }}
                {% endif %}
