@@ -1,11 +1,11 @@
 ---
 layout: post
 theme: minima
-title:  "How we greet people"
-date:   2019-12-18
+title: "How we greet people"
+date: 2019-12-18
 categories: fyi
 tags: [thoughts]
-published: True
+published: true
 ---
 
 <!-- excerpt -->
