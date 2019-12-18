@@ -1,6 +1,6 @@
 ---
 layout: post
-there: minima
+theme: minima
 title: "Laundry Room Brewery pt 2"
 date: 2016-12-03
 categories: diying

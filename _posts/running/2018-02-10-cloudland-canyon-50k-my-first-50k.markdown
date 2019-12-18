@@ -1,6 +1,6 @@
 ---
 layout: post
-there: minima
+theme: minima
 title: "Cloudland Canyon 50k"
 date: 2018-02-10
 categories: running

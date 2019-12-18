@@ -1,6 +1,6 @@
 ---
 layout: post
-there: minima
+theme: minima
 title: "January Training Camp"
 date: 2018-01-15
 categories: running

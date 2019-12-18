@@ -1,6 +1,6 @@
 ---
 layout: post
-there: minima
+theme: minima
 title: "Bell Ringer 25k"
 date: 2017-12-09
 categories: running
@@ -17,7 +17,7 @@ The Bell Ringer 25k and 50k take place in Montgomery Bell State Park, Burns TN. 
 
 Rather than stay at the park Lodge the night before, I drove from Nashville the morning of the race, well before sunrise. Miles of dark tree-tunnelled roads deposited me in a sparse gravel lot, lit by those harsh white flood lights, generators audible but well hidden. That cold white light and huge puffs of breath from the other arrivals got me revved. Packet pickup involved a dark walk up and down a hill, back-and-forth between the lodge and my car.
 
-I was sufficiently warmed up after the packet-hike despite it being well below freezing. Most runners opted to huddle in the comfy lodge until the last possible minute, but few of us paced and chatted around the start. Eventually a couple cute lady rangers rounded up runners and gave the preliminary pep talk. I remember paying more attention to their *cough* "badges" than their words. Suddenly, a buff 8' Raccoon was literally ringing a bell and we went.
+I was sufficiently warmed up after the packet-hike despite it being well below freezing. Most runners opted to huddle in the comfy lodge until the last possible minute, but few of us paced and chatted around the start. Eventually a couple cute lady rangers rounded up runners and gave the preliminary pep talk. I remember paying more attention to their "badges" than their words. Suddenly, a buff 8' Raccoon was literally ringing a bell and we went.
 
 **Race:**
 The first mile was paved road and I settled between a couple 50k bibs, about 8 runners back. Miles 2-4 used some dirt/gravel park road that was a little washed out but still fast. Around here the 50k runners settled in, dropped back, and I didn't see another runner for ten miles.

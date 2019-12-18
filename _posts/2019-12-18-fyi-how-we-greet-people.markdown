@@ -4,7 +4,7 @@ theme: minima
 title:  "How we greet people"
 date:   2019-12-18
 categories: fyi
-tags: [thoughts?]
+tags: [thoughts]
 published: True
 ---
 
