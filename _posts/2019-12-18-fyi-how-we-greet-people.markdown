@@ -3,8 +3,8 @@ layout: post
 theme: minima
 title:  "How we greet people"
 date:   2019-12-18
-categories: fyi, writing
-tags: [people watching]
+categories: fyi
+tags: [thoughts?]
 published: True
 ---
 
