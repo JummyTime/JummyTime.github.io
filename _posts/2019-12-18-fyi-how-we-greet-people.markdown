@@ -24,4 +24,4 @@ Anyway. From my many coffee shop perches, I have seen a lot of interpersonal gre
  
  I don't have a solution to this un-problem, and I'm not saying it needs one. Although...
 
-...maybe we can fill "conversation" with fewer milk crate + gas-pipe bookshelves from Pinterest, and fill it enough space to swing a bat; when you need to wreck a bitch, or bring someone home. 
+...maybe we can fill "conversation" with fewer milk crate + gas-pipe bookshelves from Pinterest, and fill it with enough space to swing a bat; when you need to wreck a bitch, or bring someone home. 

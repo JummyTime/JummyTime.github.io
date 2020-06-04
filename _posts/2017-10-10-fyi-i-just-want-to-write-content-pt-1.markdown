@@ -1,6 +1,6 @@
 ---
 layout: post
-there: minima
+theme: minima
 title: "I just want to write content pt 1"
 date: 2017-10-10 22:00:00 -0000
 categories: fyi
