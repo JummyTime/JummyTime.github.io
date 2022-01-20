@@ -1,19 +1,20 @@
 ---
 layout: post
-there: minima
+theme: minima
 title: "Laundry Room Brewery pt 3"
 date: 2016-12-04
 categories: diying
 tags: [homebrew]
 published: True
 ---
-Installing Exhaust.
-
-**Series**  
-[part 1]({% post_url 2016-12-02-laundry-room-brewery-pt-1 %})
-[part 2]({% post_url 2016-12-03-laundry-room-brewery-pt-2 %})
 
 <!-- excerpt -->
+Installing Exhaust.
+<!-- excerpt -->
+
+**Series**  
+{% include series/Laundry-Room-Brewery.md %}
+
 Major Materials (~$300)  
 - Vortex 6” “Silent” Fan
 - Rigid Duct 6” (5x5ft sections, 1 swivel elbow , mastic)
@@ -23,12 +24,7 @@ Major Materials (~$300)
 - Flexible Duct 25ft (I used a couple strips for for hard to reach places under eaves where - rigid was not an option)
 - WeMo switch
 
-<!-- excerpt -->
 
-<table style="width:100%">
-  <tr>
-    {% include image_table.html name="before-install-attic.jpg" width=500 clickable="true" %}
-    {% include image_table.html name="before-install-attic.jpg" width=500 clickable="true" %}
-    {% include image_table.html name="before-install-attic.jpg" width=500 %}
-  </tr>
-</table>
+
+{% include image-gallery.html folder="/assets/post-images/2016-12-04-laundry-room-brewery-pt-3"%}
+

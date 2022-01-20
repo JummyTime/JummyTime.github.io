@@ -1,8 +1,8 @@
 ---
 layout: post
 theme: minima
-title:  "Creating a Modern Blog"
-date:   2017-09-22 07:37:00 -0000
+title: "Creating a Modern Blog"
+date: 2017-09-22 07:37:00 -0000
 categories: fyi
 tags: [this-blog]
 published: true

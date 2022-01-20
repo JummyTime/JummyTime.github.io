@@ -1,0 +1,3 @@
+- [Part 1]({% post_url diying/2016-12-02-laundry-room-brewery-pt-1 %})
+- [Part 2]({% post_url diying/2016-12-03-laundry-room-brewery-pt-2 %})
+- [Part 3]({% post_url diying/2016-12-04-laundry-room-brewery-pt-3 %})
